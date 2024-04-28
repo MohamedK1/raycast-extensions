@@ -1,5 +1,8 @@
 # shell Changelog
 
+## [Fix] 2024-04-28
+Allow to run alias commands while running the shell command in raycast.
+
 ## [Fixes] 2023-01-02
 Fix an issue when the use Terminal/iTerm option is turned-on and command run with argument by moving execution logic to useEffect.
 

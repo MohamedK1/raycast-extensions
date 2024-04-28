@@ -5,6 +5,9 @@
   "description": "Run shell commands from Raycast",
   "icon": "bash-icon.png",
   "author": "asubbotin",
+  "contributors": [
+    "mohamedk1"
+  ],
   "categories": ["Developer Tools"],
   "license": "MIT",
   "keywords": [
