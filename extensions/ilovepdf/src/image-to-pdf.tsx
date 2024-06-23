@@ -94,6 +94,7 @@ export default function Command() {
 
   return (
     <Form
+      data-testid="image-to-pdf-form"
       enableDrafts
       actions={
         <ActionPanel>
@@ -109,7 +110,7 @@ export default function Command() {
       }
       isLoading={isLoading}
     >
-      <Form.FilePicker id="files" title="Choose an Image" allowMultipleSelection={false} />
+      <Form.FilePicker  data-testid="file-picker" id="files" title="Choose an Image" allowMultipleSelection={false} />
     </Form>
   );
 }
